@@ -97,6 +97,7 @@ textarea {
 
 .list_first {
     display: inline-block;
+    vertical-align: top;
 }
 
 .list_title {
@@ -117,6 +118,12 @@ textarea {
 .button-doc {
     background: rgb(50, 50, 50);
     color: white;
+}
+
+code {
+    background-color: #444;
+    padding: 3px;
+    color: #ddd;
 }
 
 
