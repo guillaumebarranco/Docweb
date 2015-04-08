@@ -9,7 +9,30 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-
+@font-face {
+    src: url(font/Badhead.otf);
+    font-family: "Badhead Typeface";
+}
+@font-face {
+    src: url(font/manaspc.ttf);
+    font-family: "Manaspace";
+}
+@font-face {
+    src: url(font/SUPERHERO.ttf);
+    font-family: "Super Hero";
+}
+@font-face {
+    src: url(font/ZEROHOUR.TTF);
+    font-family: "Zerohour";
+}
+@font-face {
+    src: url(font/Pokemon.ttf);
+    font-family: "Pokemon";
+}
+@font-face {
+    src: url(font/HG.ttf);
+    font-family: "HG";
+}
 html {
     color: #222;
     font-size: 1em;
@@ -95,15 +118,20 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    padding: 10px;
+}
+
 .list_first {
     display: inline-block;
     vertical-align: top;
 }
 
 .list_title {
+    
     width: 250px;
     background-color: black;
-    padding: 50px;
+    padding: 48px 22px;
     box-sizing: border-box;
     height: 200px;
     margin-left: 50px;
@@ -113,7 +141,32 @@ textarea {
     margin-top: 50px;
     text-align: center;
     cursor: pointer;
+    font-size: 40px;
 }
+.list_title_javascript {
+    font-family: "Badhead Typeface";
+    letter-spacing: 3px;
+}
+.list_title_php {
+    font-family: "Manaspace";
+}
+.list_title_css {
+    font-family: "Super Hero";
+}
+.list_title_icons {
+    font-size: 30px;
+    font-family: "Zerohour";
+}
+.list_title_tools {
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-family: "Pokemon";
+}
+.list_title_templates {
+    font-family: "HG";
+    font-size: 30px;
+}
+
 
 .button-doc {
     background: rgb(50, 50, 50);
@@ -125,6 +178,7 @@ code {
     padding: 3px;
     color: #ddd;
 }
+
 
 
 

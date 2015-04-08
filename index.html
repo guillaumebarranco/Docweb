@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Documentation Web</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -28,7 +28,7 @@
         <ul class="list_all">
 
             <li class="list_first">
-                <div class="list_title">Javascript</div>
+                <div class="list_title list_title_javascript">Javascript</div>
 
                 <ul>
 
@@ -152,6 +152,26 @@
                         </div>
                     </li>
 
+                    <!-- Foundation-Apps -->
+
+                    <li>
+                        <a href="#" class="zurb link_techno">Foundation-Apps</a>
+                        <div class="infos">
+                            <strong>Liens utiles</strong> 
+                            <ul>
+                                <li>
+                                    <a href="http://foundation.zurb.com/apps/getting-started.html" class="download">Download</a>
+                                </li>
+                                <li>
+                                    <a href="http://foundation.zurb.com/apps/docs/#!/" class="doc">Documentation</a>
+                                </li>
+                            </ul>
+                            <p>
+                                Un petit nouveau sorti par Zurb et prenant Foundation et Angularjs pour les faire fonctionner ensemble, semble prometter. A tester.
+                            </p>
+                        </div>
+                    </li>
+
                     <!-- Node.js -->
 
                     <li>
@@ -170,7 +190,7 @@
                                 </li>
                             </ul>
                             <p>
-                                La première technologie impliquant le Javascript au niveau du serveur. La dextérité du Javascript pour gérer le Back-end d'une application web. Node.js a fait beaucoup de bruits lors de son arrivée et beaucoup de développeurs (dont moi) en sont tombés amoureux. <br /><br />
+                                La première technologie impliquant le Javascript au niveau du serveur (la première à jouir d'une telle renommée en tout cas). La dextérité du Javascript pour gérer le Back-end d'une application web. Node.js a fait beaucoup de bruits lors de son arrivée et beaucoup de développeurs (dont moi) en sont tombés amoureux. <br /><br />
 
                                 Node.js est livré avec NPM, un gestionnaire de packages (plugins) qui lui est dédié. C'est simple, on y retrouve tous les modules connus (des fonticons aux modules de templating, des packages les plus fous aux plus utiles). <br /><br />
 
@@ -183,7 +203,7 @@
             </li>
 
             <li class="list_first">
-                <div class="list_title">PHP</div>
+                <div class="list_title list_title_php">PHP</div>
 
                 <ul>
 
@@ -201,6 +221,11 @@
                                     <a href="http://symfony.com/doc/current/index.html" class="doc">Documentation</a>
                                 </li>
                             </ul>
+                            <p>
+                                Un bon framework pour gérer de gros projets, son systèmes de séparation des fonctionnalités en "Bundles" le rend plus facile à utiliser à plusieurs. La gestion de Composer facilite la vie. L'ORM Doctrine y est intégré par défaut pour gérer les entités et formater la base de données, si bien qu'ouvrir PHP MY ADMIN n'est plus une nécessité ici, tout se fait en ligne de commande.<br /><br />
+
+                                Un peu compliqué à prendre en main vu la quantité d'informations à ingurgiter pour utiliser Symfony, mais rentable si le projet est conséquent.
+                            </p>
                         </div>
                     </li>
 
@@ -218,6 +243,9 @@
                                     <a href="http://framework.zend.com/docs/api/#zf2" class="doc">Documentation</a>
                                 </li>
                             </ul>
+                            <p>
+                                Testé en étant arrivé en milieu de projet, installé avec Doctrine. Sensiblement pareil que Symfony, à ceci près que j'ai trouvé la gestion des formulaires horrible. Un framework complet avec un écosystème peut-être moindre que Symfony mais avec des fonctionnalités intéressantes.
+                            </p>
                         </div>
                     </li>
 
@@ -235,6 +263,11 @@
                                     <a href="http://api.cakephp.org/2.6/" class="doc">Documentation</a>
                                 </li>
                             </ul>
+                            <p>
+                                Un très bon framework PHP pour gérer des projets petits ou moyens. Démarrage en 5 minutes chrono d'un projet, facile d'utilisation, CakePHP est le parfait framework pour ne pas se prendre la tête. Il devient cependant moins lisible au fur et à mesure que le projet grossit. Il s'agit plutôt d'une grosse boîte à outils. Il intègre cependant bien sur un système MVC (les models sont d'ailleurs simples à gérer).<br /><br />
+
+                                A noter que dans sa version 3.0 qui vient juste de sortir actuellement, il prend en charge Composer.
+                            </p>
                         </div>
                     </li>
 
@@ -249,13 +282,16 @@
                                     <a href="http://laravel.com/docs/5.0" class="download">Download / Documentation</a>
                                 </li>
                             </ul>
+                            <p>
+                                Pas encore testé.
+                            </p>
                         </div>
                     </li>
                 </ul>
             </li>
 
             <li class="list_first">
-                <div class="list_title">CSS</div>
+                <div class="list_title list_title_css">CSS</div>
 
                 <ul>
 
@@ -273,6 +309,9 @@
                                     <a href="http://foundation.zurb.com/docs/" class="doc">Documentation</a>
                                 </li>
                             </ul>
+                            <p>
+                                Une bonne petite librairie qui donne du style à la page à son arrivée (stylise les h1, boutons et autres par défaut), ce qui peut permettre de gagner pas mal de temps si on cherche une stylisation basique. En flat design, Foudation est assez simple à gérer et s'occupe depuis le départ du responsive qui est un gros atout de cette librairie (mieux géré que bootstrap de mon point de vue).
+                            </p>
                         </div>
                     </li>
 
@@ -290,6 +329,29 @@
                                     <a href="http://getbootstrap.com/css/" class="doc">Documentation</a>
                                 </li>
                             </ul>
+                            <p>
+                                Une très bonne librairie créée par Twitter qui joui d'une grande communauté, notamment de centaines (voire plus) de templates gratuits ou payants basés sur la librairie. Il peut intégrer aussi des librairies Javascript utiles. Il ne stylise cependant quasiment pas les éléments par défaut, il faut le connaître pour l'utiliser à fond et exploiter les classes. Gère le responsive depuis un petit moment.
+                            </p>
+                        </div>
+                    </li>
+
+                    <!-- Primer -->
+
+                    <li>
+                        <a href="#" data-creator="github" class="link_techno">Primer</a>
+                        <div class="infos">
+                            <strong>Liens utiles</strong> 
+                            <ul>
+                                <li>
+                                    <a href="https://github.com/primer/primer/blob/master/README.md#install" class="download">Download</a>
+                                </li>
+                                <li>
+                                    <a href="http://primercss.io/scaffolding/" class="doc">Documentation</a>
+                                </li>
+                            </ul>
+                            <p>
+                                Pas encore testé.
+                            </p>
                         </div>
                     </li>
 
@@ -307,13 +369,16 @@
                                     <a href="http://knacss.com/doc.html" class="doc">Documentation</a>
                                 </li>
                             </ul>
+                            <p>
+                                Pas encore testé. Réalisé par un pionnier du Webdesign francophone, soucieux de responsive et de propreté CSS, à essayer donc.
+                            </p>
                         </div>
                     </li>
                 </ul>
             </li>
 
             <li class="list_first">
-                <div class="list_title">Font-icons</div>
+                <div class="list_title list_title_icons">Font-icons</div>
 
                 <ul>
 
@@ -327,6 +392,9 @@
                                 <li>
                                     <a href="http://zurb.com/playground/foundation-icon-fonts-3" class="download">Download / Documentation</a>
                                 </li>
+                                <p>
+                                    Une fonticon très sympa bien qu'un peu lourde, on y trouve souvent ce qu'on veut, je l'utilise pour mes projets (lorsque je nécessite plus d'une dizaine de fonticons, car sinon c'est inutile par rapport au poids).
+                                </p>
                             </ul>
                         </div>
                     </li>
@@ -342,6 +410,9 @@
                                     <a href="https://octicons.github.com/" class="download">Download / Documentation</a>
                                 </li>
                             </ul>
+                            <p>
+                                Pas encore testé mais a l'air très fun !
+                            </p>
                         </div>
                     </li>
 
@@ -356,13 +427,35 @@
                                     <a href="http://www.grunticon.com/">Download / Documentation</a>
                                 </li>
                             </ul>
+                            <p>
+                                Pas encore testé mais a une tête très sympa !
+                            </p>
                         </div>
                     </li>
+
+                    <!-- Fandom -->
+
+                    <li>
+                        <a href="#" class="link_techno">Fandom icons</a>
+                        <div class="infos">
+                            <strong>Liens utiles</strong> <br />
+                            <ul>
+                                <li>
+                                    <a href="http://www.toicon.com/series/fandom">Download / Documentation</a>
+                                </li>
+                            </ul>
+                            <p>
+                                J'espère utiliser cette fonticon (en svg) prochainement car elle semble fun.
+                            </p>
+                        </div>
+                        
+                    </li>
+
                 </ul>
             </li>
 
             <li class="list_first">
-                <div class="list_title">Autres modules</div>
+                <div class="list_title list_title_tools">Autres modules</div>
 
                 <ul>
 
@@ -380,6 +473,9 @@
                                     <a href="http://bower.io/docs/api/" class="doc">Documentation</a>
                                 </li>
                             </ul>
+                            <p>
+                                Un package installer/manager pour des librairies ou frameworks des plus simples à de plus compliqués en une ligne de commande.
+                            </p>
                         </div>
                     </li>
 
@@ -454,23 +550,6 @@
                         </div>
                     </li>
 
-                    <!-- Foundation-Apps -->
-
-                    <li>
-                        <a href="#" class="zurb link_techno">Foundation-Apps</a>
-                        <div class="infos">
-                            <strong>Liens utiles</strong> 
-                            <ul>
-                                <li>
-                                    <a href="http://foundation.zurb.com/apps/getting-started.html" class="download">Download</a>
-                                </li>
-                                <li>
-                                    <a href="http://foundation.zurb.com/apps/docs/#!/" class="doc">Documentation</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-
                     <!-- Google Tag Manager -->
 
                     <li>
@@ -490,7 +569,7 @@
             </li>
 
             <li class="list_first">
-                <div class="list_title">Templates</div>
+                <div class="list_title list_title_templates">Templates</div>
 
                 <ul>
                     <li>
@@ -514,59 +593,6 @@
         <script src="js/vendor/jquery-1.11.2.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-
-        <script>
-
-            $(document).ready(function() {
-
-                $('.list_first ul').hide();
-                $('.infos').hide();
-                $('.container').hide();
-
-                $('.link_techno').each(function() {
-                    if($(this).attr('data-creator') != null && $(this).attr('data-creator') != undefined) {
-                        $(this).append('<img style="margin-left: 20px;" src="img/'+$(this).attr('data-creator')+'.png" width="100" />');
-                    }
-                });
-
-                $('.infos ul li a').each(function() {
-                    $(this).attr('target', '_blank');
-                    if($(this).attr('class') === 'download') {
-                        $(this).addClass('pure-button pure-button-primary')
-                    } else if($(this).attr('class') === 'doc') {
-                        $(this).addClass('pure-button button-doc');
-                    }
-                });
-
-                $('.list_first').on('click', function() {
-
-                    if($(this).hasClass('active')) {
-                        $(this).find('ul').slideUp();
-                        $(this).removeClass('active');
-                    } else {
-                        $('.list_first').removeClass('active');
-                        $('.list_first').find('ul').slideUp();
-                        $(this).find('ul').slideDown();
-                        $(this).addClass('active');
-                    }
-                });
-
-                $('.list_first a').on('click', function(e) {
-                    e.preventDefault();
-                    $('.content').append($(this).text());
-                    $('.content').append($(this).parent().find('.infos').html());
-                    $('.list_all').hide();
-                    $('.container').show();
-                });
-
-                $('.container button').on('click', function() {
-                    $('.container').hide();
-                    $('.content').empty();
-                    $('.list_all').show();
-                });
-            });
-
-        </script>
 
     </body>
 </html>
