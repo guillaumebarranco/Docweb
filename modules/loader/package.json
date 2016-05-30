@@ -1,0 +1,14 @@
+{
+  "name": "loader",
+  "version": "1.0.0",
+  "description": "npm install webarranco_loader --save",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webarranco_loader": "^1.0.1"
+  }
+}
